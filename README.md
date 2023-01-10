@@ -7,3 +7,6 @@ Died:
 Desember 08, 2019, Oak Lawn, Illinois, U.S.
 Cause of death:
 Acute oxycodone and codeine intoxication
+
+Link til eitt af löginn hanns:
+https://youtu.be/C5i-UnuUKUI
