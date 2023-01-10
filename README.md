@@ -10,3 +10,5 @@ Acute oxycodone and codeine intoxication
 
 Link til eitt af löginn hanns:
 https://youtu.be/C5i-UnuUKUI
+
+Juice var orðin frægur með eitt lag sem hann samdi, sem var frægasta lagið hans sem heitir: Lucid Dreams
