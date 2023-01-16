@@ -7,4 +7,15 @@ body{
         color:lime;
         font-style: italic;
         font-size: 60px;
+        background: pink;
+    }
+    h2{
+        border: 1px solid black;
+    }
+    .BlárTexti{
+        color: blueviolet;
+    }
+    .feitletrun{
+        font-weight: 100;
+        color: black;
     }
