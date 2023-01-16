@@ -12,10 +12,14 @@ body{
     h2{
         border: 1px solid black;
     }
-    .BlárTexti{
+    .BlárVTexti{
         color: blueviolet;
     }
-    .feitletrun{
+    .Feitletrun{
         font-weight: 100;
         color: black;
+    }
+
+    .Skaletur{
+        font-style: italics;
     }
