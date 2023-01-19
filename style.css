@@ -2,12 +2,12 @@ body{
     max-width: 1280px;
     margin: 15px auto;
 
-    border: 3px solid black;
+    border: 3px dotted white;
 
 
-    background: yellow;
-    color:magenta;
-    font-family: 'Courier New', Courier, monospace;
+    background: black;
+    color:white;
+    font-family: cursive;
     }
 
     .Poem{
@@ -22,13 +22,13 @@ body{
         color:red;
         font-style: italic;
         font-size: 60px;
-        background: black;
+        background: white;
     }
     h2{
-        border: 2px solid black;
+        border: 2px solid white;
     }
     .Border{
-        border: 2.5px dashed black;
+        border: 2.5px dashed white;
     }
     
     .BlárVTexti{
@@ -48,5 +48,5 @@ body{
         font-weight: 140;
     }
     .Litur{
-        color: magenta;
+        color: black;
     }
