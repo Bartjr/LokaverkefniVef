@@ -28,7 +28,9 @@ body{
         border: 2px solid white;
     }
     .Border{
-        border: 2.5px dashed white;
+        border: 2.5px solid white;
+        margin-left: 3px;
+        margin-right: 3px;
     }
     
     .BlárVTexti{
@@ -49,4 +51,32 @@ body{
     }
     .Litur{
         color: black;
+    }
+
+    .padding{
+        padding-left: 2px;
+        padding: 4px;
+    }
+
+
+
+
+
+    
+
+    .tveir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .three_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .fjorir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
