@@ -59,7 +59,9 @@ body{
     }
 
 
-
+    .paddingGrid{
+        padding: 8px;
+    }
 
 
     
@@ -80,7 +82,7 @@ body{
     }
     .dalkar3{
         display: grid;
-        grid-template-columns: 3fr 2fr 1fr;
+        grid-template-columns: 2.5fr 2fr 1fr;
     }
 
 
