@@ -68,7 +68,7 @@ body{
     }
 
 
-    
+
 
     .tveir_dalkar{
         display: grid;
@@ -157,4 +157,71 @@ body{
 
 
 
+.dalkar_2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
+
+
+
+@media screen and (min-width:37.5em){
+
+    .dalkar_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width:48em){
+
+    .dalkar_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+.dalkar_4{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:37.5em){
+
+    .dalkar_4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:40em){
+
+    .dalkar_4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:48em){
+
+    .dalkar_4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+.dalkar_1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:37.5em){
+
+    .dalkar_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
