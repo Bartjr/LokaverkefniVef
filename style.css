@@ -5,13 +5,19 @@ body{
     border: 3px dotted white;
 
 
-    background: black;
+    background: linear-gradient(black, white);
     color:white;
     font-family: cursive;
     }
 
     .white{
         background-color: white;
+    }
+    .black{
+        background: linear-gradient(black,purple);
+    }
+    .lineargradient{
+        background: linear-gradient(blue,red);
     }
 
     .Poem{
@@ -68,34 +74,6 @@ body{
     }
 
 
-
-
-    .tveir_dalkar{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    .three_dalkar{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .dalkar_3{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-    }
-    .dalkar3{
-        display: grid;
-        grid-template-columns: 2.5fr 2fr 1fr;
-    }
-
-
-
-    .fjorir_dalkar{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
     .Border3{
         border: 4px solid red;
     }
@@ -111,9 +89,6 @@ body{
         font-size: large;
     }
 
-    a{
-        color: white;
-    }
 
     .bordermargin{
         border: 2px solid white;
@@ -123,33 +98,61 @@ body{
 
     
       .wrapper {
-          display: grid;
-          grid-gap: 10px;
-          grid-template-columns: 1fr 1fr 1fr;
-          background-color: #fff;
-          color: #444;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #fff;
+        color: #444;
+        grid-template-areas: 
+        "c"
+        "a"
+        "b";
         }
+
+        @media screen and (min-width:37.5em){      
+            .wrapper{
+                display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 5px;
+            grid-template-areas: 
+            "a a"
+            "b c";
+        }
+            }
+        
+        
+        
+        @media screen and (min-width:48em){
+        
+            .wrapper{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "a a b"
+                "a a b"
+                "c c b";
+        
+            }
+        }
+
       
         .box {
           background-color: #444;
           color: #fff;
           border-radius: 5px;
-          padding: 20px;
-          font-size: 150%;
+          padding: 15px;
+          font-size: 120%;
       
         }
       
         .a {
-          grid-column: 1 / 3;
-          grid-row: 1 / 2;
+            grid-area: a;
         }
         .b {
-          grid-column: 3 / 4 ;
-          grid-row: 1 / 3;
+            grid-area: b;
         }
         .c {
-          grid-column: 1 / 3 ;
-          grid-row: 2 / 3 ;
+            grid-area: c;
         }
 
 
@@ -160,6 +163,7 @@ body{
 .dalkar_2{
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 
 
@@ -189,6 +193,7 @@ body{
 .dalkar_4{
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 @media screen and (min-width:37.5em){
 
@@ -214,14 +219,142 @@ body{
 
 
 
-.dalkar_1{
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    text-transform: uppercase;
+}
+
+Nav{
+    padding: 8px;
+}
+footer{
+    padding: 8px;
+}
+
+
+.valmynd{
     display: grid;
     grid-template-columns: 1fr;
-}
-@media screen and (min-width:37.5em){
 
-    .dalkar_1{
+    justify-items: center;
+}
+
+@media screen and (min-width:768px){
+    .valmynd{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        justify-items: center;}
+}
+
+
+
+.valmynd1{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+}
+@media screen and (min-width:480px){
+    .valmynd1{
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    
+        justify-items: center;}
 }
+@media screen and (min-width:768px){
+    .valmynd1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        justify-items: center;}
+}
+
+.valmynd3{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+}
+@media screen and (min-width:480px){
+    .valmynd3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        justify-items: center;}
+    }
+
+    .a1 {
+        grid-area: a1;
+    }
+    .b1 {
+        grid-area: b1;
+    }
+    .c1 {
+        grid-area: c1;
+    }
+    .d1{
+        grid-area:d1
+    }
+
+
+    .fourpice{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        color: #444;
+        grid-template-areas: 
+        "a1"
+        "b1"
+        "c1"
+        "d1";
+        }
+
+        @media screen and (min-width:30.5em){      
+            .fourpice{
+                display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 5px;
+            grid-template-areas: 
+            "a1 b1"
+            "a1 b1"
+            "a1 b1"
+            "c1 d1";
+        }
+            }
+        
+        
+        
+        @media screen and (min-width:37.5em){
+        
+            .fourpice{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "a1 a1 b1"
+                "a1 a1 b1"
+                "a1 c1 d1"
+                "a1 c1 d1";
+        
+            }
+        }
+
+        @media screen and (min-width:48em){
+        
+            .fourpice{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-areas: 
+                "a1 a1 b1 d1"
+                "a1 a1 b1 d1"
+                "c1 c1 b1 d1"
+                "c1 c1 b1 d1";
+        
+            }
+        }
