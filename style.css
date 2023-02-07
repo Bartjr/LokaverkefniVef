@@ -2,9 +2,6 @@ body{
     max-width: 1280px;
     margin: 15px auto;
 
-    border: 3px dotted white;
-
-
     background: linear-gradient(black, white);
     color:white;
     font-family: cursive;
@@ -357,4 +354,13 @@ footer{
                 "c1 c1 b1 d1";
         
             }
+        }
+
+
+
+
+        img{
+            max-width: 100%;
+            height: auto;
+
         }
