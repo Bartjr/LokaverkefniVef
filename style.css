@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: red;
+    font-size: 30px;
+}
+td,th{
+    border: 2px solid white;
+}
+thead{
+    background: black;
+}
 html{
     scroll-behavior: smooth;
 }
