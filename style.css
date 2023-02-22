@@ -3,17 +3,50 @@
 table{
     width: 100%;
     border-collapse: collapse;
-    background: red;
     font-size: 30px;
 }
 td,th{
     border: 2px solid white;
+    padding: 5px;
+}
+
+
+tbody tr:nth-child(odd){
+    background: red;
 }
 thead{
     background: black;
 }
 html{
     scroll-behavior: smooth;
+}
+@media screen and (max-width: 600px){
+    thead{
+        display: none;
+    }
+
+    td{
+        display: block;
+        text-align: right;
+    }
+
+    tr{
+        display: block;
+        margin-bottom: 5px;
+    }
+    td::before{
+        content: attr(data);
+        float: left;
+    }
+}
+.griddy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2em;
+}
+
+form{
+    background: rgb(0, 0, 0);
 }
 
 .upp{
@@ -92,7 +125,8 @@ body{
         font-weight: 140;
     }
     .Litur{
-        color: black;
+        background: blue;
+        color: white
     }
 
     .padding{
