@@ -8,7 +8,9 @@
     <title>JW ticket</title>
 </head>
 <body>
+    <img src="xxxjuice.jpg">
     <div class="griddy">
+        
         Up-and-coming rapper Juice WRLD burst onto the music scene in 2017 with the hit song "Lucid Dreams." His following, much of which was introduced to his work through the streaming site SoundCloud, was treated to another breakout song in "All Girls are The Same" later that year as part of a three-song EP titled "Nothings Different." Pitchfork praised that song as a "Best New Track." "All Girls are the Same" and "Lucid Dreams" were the Chicago rappers' first time on the Billboard Hot 100 charts, debuting at 92 and 74, respectively.
 
         Juice WRLD -- born Jarad Higgins -- released his first studio album in May of 2018, titled "Goodbye & Good Riddance." The 16 tracks offered an additional view into the creative "emo-rap" genre Juice WRLD has helped build momentum around. The album gained commercial and streaming success as "Lucid Dreams" climbed to a top-5 spot on the Billboard charts.
@@ -46,11 +48,14 @@
         <form action="juice.html">
             <fieldset>
                 <legend>Order ticket:</legend>
-                Nafn: <br>
-                <input type="text" required>
+                Name: <br>
+                <input type="text" placeholder="Name" required class="styleForm">
                 <br> <br>
                 Email: <br>
-                <input type="email" required>
+                <input type="email" placeholder="Email" required class="styleForm">
+                <br> <br>
+                Phone number: <br>
+                <input type="number" placeholder="Phone number" required class="styleForm">
                 <br> <br>
 
                 Male<input type="radio" name="male" required>
@@ -60,7 +65,7 @@
 
                 Chose Concert:
                 <br>
-                <select>
+                <select class="styleForm">
                     <option value=""></option>
                     <option value="">Chicago Concert</option>
                     <option value="">Rekjavík Concert</option>
@@ -69,7 +74,7 @@
                 <br><br>
 
                 Date of concert: <br>
-                <input type="Date" name="male" required>
+                <input type="Date" name="male" required class="styleForm">
                 <br> <br>
                 What lyrics do you want... 
                 Lyrics1<input type="checkbox">
@@ -77,10 +82,10 @@
                 Lyrics3<input type="checkbox">
                 <br> <br>
 
-                You're Favorite Song(Not required) <br>
-                <textarea cols="30" rows="20" class="Litur"></textarea>
+                Write You're Favorite Song(Not required) <br>
+                <textarea cols="30" rows="20" class="Litur styleForm"></textarea>
                 <br> <br>
-                <center><input type="submit" value="Submit"></center>
+                <center><input type="submit" value="Submit" class="styleForm"></center>
             </fieldset>
         </form>
     </div>
